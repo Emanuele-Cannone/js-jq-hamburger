@@ -4,16 +4,11 @@
 
 $(document).ready(function(){
 
-  $('.header-right a i').click(function (){
+  $('.header-right a').click(function (){
     $('.hamburger-menu').show();
   });
 
-
-  $(".header-right a i").click(function(){
-    alert("The paragraph was clicked.");
-  });
-
-  $('.header-right a i').click(function (){
+  $('.hamburger-menu a').click(function (){
     $('.hamburger-menu').hide();
   });
 
